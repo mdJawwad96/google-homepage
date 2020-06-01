@@ -7,14 +7,21 @@
 
 nav {
    text-align: right;
+   padding-top: 1.5em;
 }
 
 nav > a {
     text-decoration: none;
     color: rgb(2, 2, 2);
     font-size: 0.9em;
+    padding: 5px;
+    margin-top: 20px;
 }
 
-nav a img {
-    width: 50px;
+.apps {
+    display: relative;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-top: -5px;
 }
