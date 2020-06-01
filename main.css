@@ -70,3 +70,18 @@ button {
     color: white;
     border-radius: 5px;
 }
+
+/* ---- Languages ---- */
+
+.lng {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.lng a {
+    display: flex;
+    padding-right: 10px;
+    padding-left: 5px;
+}
