@@ -1,6 +1,7 @@
 * {
  margin: 0;
  padding: 0;
+ font-family: Arial, Helvetica, sans-serif;
 } 
 
 /* ---- NAV ---- */
@@ -65,9 +66,9 @@ button {
     padding: 5px;
     margin-left: 10px;
     font-size: 15px;
-    background-color: rgb(182, 179, 179);
+    background-color: rgba(182, 179, 179, 0.3);
     border: 0 solid;
-    color: white;
+    color:  rgb(90, 90, 90);
     border-radius: 5px;
 }
 
@@ -84,4 +85,32 @@ button {
     display: flex;
     padding-right: 10px;
     padding-left: 5px;
+}
+
+/* ---- footer ---- */
+
+.div-ftr {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.first {
+    color:  rgb(90, 90, 90);
+}
+
+.ftr {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(182, 179, 179, 0.3);
+    padding: 10px 0;
+    border-top: 1px solid rgba(133, 130, 130, 0.8);
+    justify-content: space-between;
+    font-size: 13px;
+}
+
+.ftr a {
+    text-decoration: none;
+    color: rgb(90, 90, 90);
+    padding-right: 5px;
 }
