@@ -25,3 +25,48 @@ nav > a {
     height: 30px;
     margin-top: -5px;
 }
+
+/* ---- LOGO ---- */
+
+.google-lgo  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30vh;
+    width: 300px;
+}
+
+/* ---- SEARCH ---- */
+
+.srch {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.srch-bar {
+    width: 550px;
+    height: 40px;
+    border-radius: 50px;
+    border: 0.5px solid  rgb(182, 179, 179);
+}  
+
+/* ---- BUTTON ---- */
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    width: 150px;
+    height: 36px;
+    padding: 5px;
+    margin-left: 10px;
+    font-size: 15px;
+    background-color: rgb(182, 179, 179);
+    border: 0 solid;
+    color: white;
+    border-radius: 5px;
+}
