@@ -52,7 +52,18 @@ nav > a {
     height: 40px;
     border-radius: 50px;
     border: 0.5px solid  rgb(182, 179, 179);
+    padding-left: 40px;
 }  
+
+/* ---- SEARCH ICON ---- */
+
+.icn {
+    display: relative;
+    position: absolute;
+    margin-left: 13px;
+    margin-top: 11px;
+    color: rgb(182, 179, 179);
+}
 
 /* ---- BUTTON ---- */
 
@@ -78,7 +89,7 @@ button {
 .lng {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 30px;
     font-size: 13px;
 }
 
